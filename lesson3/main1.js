@@ -66,7 +66,7 @@
 
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 
-let array= [2,17,13,6,22,31,45,66,100,-18]
+// let array= [2,17,13,6,22,31,45,66,100,-18]
 // for (let i =array.length-1; i>=0; i--){
 //     let arr =array[i]
 //     if (arr%3===0){                                         7
@@ -121,11 +121,11 @@ let array= [2,17,13,6,22,31,45,66,100,-18]
 
 
 //1
-let i =array.length
-while (i--){
-    console.log(array[i])
-}
-
+// let i =array.length
+// while (i--){
+//     console.log(array[i])
+// }
+//
 
 
 
@@ -212,7 +212,7 @@ let simpsons = [
 
 
 // for (let simpson of simpsons) {
-//     document.write(`<div class="simpson"> Name - ${simpson.name}.Surname - ${simpson.surname}. Age - ${simpson.age}. Info - ${simpson.info}  <img class="img" src="${simpson.photo} "></div>`)
+//     document.write(`<div class="simpson">${simpson.name} ${simpson.surname} - ${simpson.age}.${simpson.info}  <img class="img" src="${simpson.photo} "></div>`)
 //
 // }
 
