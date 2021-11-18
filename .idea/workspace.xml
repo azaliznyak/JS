@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/classwork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/classwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/main1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/classwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/classwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/homework.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/homework.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -58,11 +63,26 @@
       <workItem from="1636821609127" duration="425000" />
       <workItem from="1636823568810" duration="3128000" />
       <workItem from="1636985880521" duration="9128000" />
-      <workItem from="1637024052059" duration="1252000" />
+      <workItem from="1637024052059" duration="4848000" />
+      <workItem from="1637193284235" duration="9338000" />
+      <workItem from="1637204922306" duration="1637000" />
+      <workItem from="1637206714626" duration="7230000" />
     </task>
+    <task id="LOCAL-00001" summary="upload">
+      <created>1637025549506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637025549506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
 </project>
