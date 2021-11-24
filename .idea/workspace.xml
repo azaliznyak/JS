@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson3/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/classwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/main1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/classwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/classwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/classwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/classwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +68,8 @@
       <workItem from="1637024052059" duration="4848000" />
       <workItem from="1637193284235" duration="9338000" />
       <workItem from="1637204922306" duration="1637000" />
-      <workItem from="1637206714626" duration="7576000" />
+      <workItem from="1637206714626" duration="20178000" />
+      <workItem from="1637759938363" duration="11873000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1637025549506</created>
@@ -74,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637214367857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload">
+      <created>1637214607886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637214607886</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
