@@ -67,9 +67,9 @@
 // function averageArr(){
 //     let result=0
 //     for (let arr of array) {
-//         result= result+arr/array.length
+//         result= result+arr
 //     }
-//     return result
+//     return result/array.length
 // }
 //
 // console.log(averageArr());

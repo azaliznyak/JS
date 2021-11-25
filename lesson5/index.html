@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+// let asd = 0;
+// function increment(num){
+//     num++
+// }
+// increment(asd)
+// console.log(asd); //0
+
+
+// let asd = {val: 0}
+// function increment2 (obj){
+//     obj.val++;
+// }
+//
+// increment2(asd)                      // Застосовуємо функцію над нашим об*єктом asd
+// console.log(asd)
+//
+
+                                     //FUNCTION EXPRESSION
+
+// let foo = function (){
+//     console.log('foobar')
+// }
+// foo()
+
+// let foobar = () => {
+//     console.log('foo')
+// }
+// foobar()
+
+// let calc = ( a,b) =>{return a+b;}
+// console.log(calc(40, 2));
+                                            //Можна без return, бо функція розуміє принцип дій
+// let calc = ( a,b) =>a+b;
+// console.log(calc(40, 2));
+
+
+//
+// function rec(i){  //1  //2
+//     i++;  //1  //2  //3                                     Рекурсія
+//     console.log(i); //1//2  //3
+//
+//     if ( i> 10){
+//         return;                                           //Для того щоб зупинити
+//     }
+//
+//
+//     rec(i)  //1 //2//3
+// }
+// rec(0)
+
+
+//
+// function calculator(action, a, b) {
+//         if (action === '+') {
+//             return a + b;
+//         } else if (action === '-') {
+//             return a - b
+//         } else if (action === '*') {
+//             return a * b;
+//         } else if (action === '/') {
+//             return a / b;
+//         } else if (action === 'custom') {
+//             return (a + b) / a;
+//         } else {
+//             return 0;
+//         }
+//
+//     }
+//
+//     console.log(calculator("custom", 10, 20));
+//
+//                                                      //ПРОСТІШИЙ ВАРІАНТ callback |
+//                                    //⇩
+//
+// function calculator(action ,a,b){
+//     return a+b;
+// }
+// calculator(function (a,b){
+//     return a+ b
+// }, 10,20)
+
+
+
+
+
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    ]
+//
+// let filter =[]
+// for (let user of users) {
+//     if (user.age>30){
+//         filter.push(user)
+//     }
+//
+// }
+// console.log(filter);
+
+//CALLBACK
+
+let filter =users.filter(function (user){
+    return user.age>30;
+})
+
+console.log(filter);
+</script>
+</body>
+</html>
