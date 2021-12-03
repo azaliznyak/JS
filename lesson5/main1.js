@@ -45,15 +45,15 @@
 // console.log(returnMin([66, 90, 890, 11, 23, 44]));
 
 //5 - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-// let array =[66,90,890,11,23,44]
-// let sum=()=>{
+//
+// let sum=(numbers)=>{
 //     let result =0
-//     for (let arr of array) {
-//         result = result+arr
+//     for (let num of numbers) {
+//         result = result+num
 //     }return result
 // }
 //
-// console.log(sum());
+// console.log(sum([66,90,890,11,23,44]));
 //6 - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
 // let array =[66,90,890,11,23,44]
 // let averageNum=()=>{
@@ -83,13 +83,15 @@
 //8 - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 // let randomNum=()=>{
+//     let array=[]
 //     for (let i = 0; i < 100; i++) {
 //        let r= Math.round(Math.random()*100)
 //         document.write(`<div>${r}</div>`)
+//         array.push(r)
 //
-//     }
+//     }return array
 // }
-// randomNum()
+// console.log(randomNum());
 
 //9 - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
 // let randomNum=(limit)=>{
