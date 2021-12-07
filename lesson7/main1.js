@@ -87,52 +87,52 @@
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-
-class Cinderella{
-    constructor(name,age,footsize) {
-        this.name= name;
-        this.age= age;
-        this.footsize=footsize
-    }
-}
-
-let array = [
-    new Cinderella('anna', 55, 41),
-    new Cinderella('sofi', 21, 37),
-    new Cinderella('natalya', 24, 45),
-    new Cinderella('olya', 26, 33),
-    new Cinderella('nastya', 29, 38),
-    new Cinderella('olesya', 90, 47),
-    new Cinderella('mila', 87, 39),
-    new Cinderella('marta', 34, 40),
-];
-console.log(array);
-
-class Prince{
-    constructor(name,age,shoes) {
-        this.name=name;
-        this.age= age;
-        this.shoes=shoes
-    }
-}
-
-let prince=new Prince('Harold', 25,37)
-
-
-let findCinderella=()=>{
-    for (let cinderella of array) {
-        if (cinderella.footsize===prince.shoes){
-            return ` You find ${cinderella.name}`
-
-        }
-    }
-}
-console.log(findCinderella());
-
-
-// let arrayFind= array.find((value)=>{
-//     return value.footsize===prince.shoes
-// })
-// console.log(arrayFind)
-
-
+//
+// class Cinderella{
+//     constructor(name,age,footsize) {
+//         this.name= name;
+//         this.age= age;
+//         this.footsize=footsize
+//     }
+// }
+//
+// let array = [
+//     new Cinderella('anna', 55, 41),
+//     new Cinderella('sofi', 21, 37),
+//     new Cinderella('natalya', 24, 45),
+//     new Cinderella('olya', 26, 33),
+//     new Cinderella('nastya', 29, 38),
+//     new Cinderella('olesya', 90, 47),
+//     new Cinderella('mila', 87, 39),
+//     new Cinderella('marta', 34, 40),
+// ];
+// console.log(array);
+//
+// class Prince{
+//     constructor(name,age,shoes) {
+//         this.name=name;
+//         this.age= age;
+//         this.shoes=shoes
+//     }
+// }
+//
+// let prince=new Prince('Harold', 25,37)
+//
+//
+// let findCinderella=()=>{
+//     for (let cinderella of array) {
+//         if (cinderella.footsize===prince.shoes){
+//             return ` You find ${cinderella.name}`
+//
+//         }
+//     }
+// }
+// console.log(findCinderella());
+//
+//
+// // let arrayFind= array.find((value)=>{
+// //     return value.footsize===prince.shoes
+// // })
+// // console.log(arrayFind)
+//
+//
