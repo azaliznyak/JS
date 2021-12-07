@@ -5,6 +5,163 @@
     <title>Title</title>
 </head>
 <body>
+<script>
 
+    // let str=' okten';
+    // console.log(str.length);
+    // console.log(str[1]);            //ми отримаємо літеру к по індексу 1
+    //
+    // let concat= str.concat('!!!')   //щоб з єднювати
+    // console.log(concat)
+
+    // let toUpperCase=str.toUpperCase()
+    // console.log(toUpperCase)
+    // let toLowerCase=toUpperCase.toLowerCase()
+    // console.log(toLowerCase)
+    //
+    // console.log(str.trim());            //забирає зайве
+    //
+    // let email= 'asd@asd.com';
+    // console.log(email.endsWith('.com'));      //перевіряє чи емейл закінчується на .com
+    //
+    // let s=email.charAt(3);           //третій індекс
+    // console.log(s)
+    // let indexOf= email.indexOf('@');
+    // console.log(indexOf)                   //показує індекс цього символа
+    //
+    // let str1= 'okten hello'
+    // let replace = str1.replace('o', '!');       //  замінить тільки першу літеру о
+    // console.log(replace)
+    //
+    // let replaceAll = str1.replaceAll('o', '!');      //замінить всі літери о
+    // console.log(replaceAll)
+    //
+    // let trim= str1.trim().replaceAll('o', '!')
+    // console.log(trim)
+    //
+    //
+    // console.log(str1.slice(1, 4));       //  від першого індекса до четвертого
+    //
+    // console.log(str1.split(' '));            //нарізає нашу стрінгу на елементи масиву, видаляючи пробіл
+    //
+    // console.log(str1.substr(1, 2));                         //  перше число це з якого індексу ми починаємо нарізати наш елемент , друге яку кількість символів хочемо нарізати
+
+
+
+
+
+    let numbers = [11,22,33,44,55,66,77,88,99,100]
+    // console.log(Array.isArray(numbers))              //чи об єкт намберс є масивом
+    //
+    // numbers.push('asd new')        // якщо ми хочемо додати щось у масив
+    // console.log(numbers)
+    // numbers.unshift('!!!')       // щоб додати елемент на початок масиву
+    // console.log(numbers)
+    //
+    // let pop = numbers.pop()           //видаляє якийсь елемент з кінця
+    // console.log(pop)
+    //
+    // let shift = numbers.shift();              //видаляє елемент з початку
+    // console.log(shift)               //повертає елемент який вирізали
+    // console.log(numbers)
+    //
+    // console.log(numbers.concat([true, false]));
+    //
+    // console.log(numbers.slice(1, 5));
+    //
+    // let splice= numbers.splice(1,2, 'asd','dsa',true);       //замість тих елемнтів які були вирізані впроваджуються 'asd','dsa'
+    // console.log(splice)                 //повертає те що він вирізав
+    // console.log(numbers)
+    //
+
+
+
+    // console.log(numbers)
+    // numbers.forEach(function (value){                //застосується до кожного елемента з масиву намберс
+    //      console.log(value)
+    // })
+
+
+    // let filterArray = numbers.filter((item,index)=>{
+    //     if (item%2 ===0){                   //
+    //         return true;                    // OR      return item%2===0
+    //     }else {                             //
+    //         return false                    //
+    //     }
+    //
+    // })
+    // console.log(filterArray);
+    //
+    //
+    //
+    // let map =numbers.map((value)=>{
+    //     return value *2
+    // })
+    // console.log(map)               // всі значення з масива в два рази більші//  використовується для перетворення об єктів з одного типу на інший
+    // console.log(numbers)
+
+
+
+    let arr= [ 22,55,[11,33,77],'hello', true, 'world']
+    // let join = arr.join('-')          //ми всі елемети масиву з єднюємо через -
+    // console.log(join)
+    //
+    //
+    // let reverse= arr.reverse()             //від кінця до початку
+    // console.log(reverse)
+
+
+    // let every=arr.every(value => typeof value==='string')      //перевіряє чи кожен елемент масиву є стрінга
+    // console.log(every)
+    //
+    // console.log(arr.some(value => Array.isArray(value)));    //чи є в хоч один елемент в нашому масиві array
+    //
+    //
+    // let flat = arr.flat(1)              // розкладає масив в масиві
+    // console.log(flat)
+    //
+    //
+    // let flatMap=arr.flatMap(value => {
+    //     return value + '!!!'
+    // })
+    // console.log(flatMap);
+
+
+
+
+
+    // let users =[
+    //     {
+    //         name:'Anya',
+    //         age:17,
+    //         id:1,
+    //     },
+    //     {
+    //         name: 'Andrey',
+    //         age: 66,
+    //         id:2
+    //     },
+    //     {
+    //         name: 'Olya',
+    //         age: 33,
+    //         id: 3
+    //     }
+    // ]
+    //
+    // let sort=users.sort((u1,u2)=>{
+    //     return u1.age - u2.age
+    // })
+    // console.log(sort);
+
+
+    let fiskCheck= [ 1,7,9,3,4,5,3]
+    let number = fiskCheck.reduce(((previousValue, currentValue) => {
+        return previousValue + currentValue
+    },0))
+    console.log(number)
+
+
+
+</script>
 </body>
 </html>
