@@ -1,23 +1,23 @@
 //
 //1 - Дано список імен.
-    let n1 = 'Harry..Potter'
-    let n2 = 'Ron---Whisley'
-    let n4 = 'Hermione__Granger'
-// Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
-// let n1 = 'Harry Potter'
-// let n2 = 'Ron Whisley'
-// let n3 = 'Hermione Granger'
-
-
-let nameOf = (name) => {
-      name
-          .replaceAll('..',' ')
-          .replaceAll('---', ' ')
-          .replaceAll('__', ' ')
-
-
-    }
-console.log(nameOf(n4));
+//     let n1 = 'Harry..Potter'
+//     let n2 = 'Ron---Whisley'
+//     let n4 = 'Hermione__Granger'
+// // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
+// // let n1 = 'Harry Potter'
+// // let n2 = 'Ron Whisley'
+// // let n3 = 'Hermione Granger'
+//
+//
+// let nameOf = (name) => {
+//       return name
+//           .replaceAll('..',' ')
+//           .replaceAll('---', ' ')
+//           .replaceAll('__', ' ')
+//
+//
+//     }
+// console.log(nameOf(n4));
 
 
 //
