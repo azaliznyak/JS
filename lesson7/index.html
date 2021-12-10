@@ -147,12 +147,52 @@
 
 
 
-    class User{
-        id;
-        name;
-        
+ //ЗАМИКАННЯ
 
+    // function foobar() {
+    //     let x =100
+    //     let userWorker ={
+    //         xxx:function (){
+    //             console.log('qwe')
+    //     }
+    //     }
+    //     return userWorker
+    // }
+    //
+    // let uw=foobar()
+    // uw.xxx()
+    //
+
+
+
+
+    function foobar() {
+        let user = {age:31};
+        let userWorker={
+            getAge: function (password) {
+                if (password==='asdf'){
+                    return user.age
+                }else {
+                    console.log('wrong password')
+                    return -9999
+                }
+            },
+            setAge:function (newAge){
+                if (newAge>0&& newAge<215){
+                    user.age=newAge
+                }
+
+        }
+        }
+       return userWorker
     }
+
+    let uw= foobar()  //userWorker
+    let age = uw.getAge('111');
+    console.log(age)//31
+    uw.setAge(90);
+    console.log(uw.getAge('asdf'));
+
 
 </script>
 </body>
