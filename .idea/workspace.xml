@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson9/classwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/main1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/classwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/classwork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/homework.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/homework.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +75,8 @@
       <workItem from="1637204922306" duration="1637000" />
       <workItem from="1637206714626" duration="20178000" />
       <workItem from="1637759938363" duration="59929000" />
-      <workItem from="1638920067764" duration="12440000" />
+      <workItem from="1638920067764" duration="22789000" />
+      <workItem from="1639190225467" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1637025549506</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638957455931</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upload">
+      <created>1639100352235</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639100352235</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="target point">target</div>
+<div class="jack">jack</div>
+<div class="queen">queen</div>
+
+<div>
+<form id="f1">
+    <input type="text" name="username">
+    <button>save</button>
+</form>
+</div>
+
+<div>
+<form name="f2">
+    <input type="number">
+    <button>save2</button>
+</form>
+</div>
+<script>
+   // let h1=document.createElement('h1');
+   // h1.innerText='okten';
+   // document.body.appendChild(h1)
+   // let h1Clone=h1.cloneNode(true)
+   // document.body.appendChild(h1Clone)
+   //
+   //
+   // let target=document.getElementsByClassName('target')[0]
+   // target.appendChild(h1);
+   //
+   // let clone=h1.cloneNode(true);
+   // clone.innerText='hello'
+   // document.body.insertBefore(clone,target)    // перший елемент це той який ми будемо вставляти,другий перед яким елементом вставляти
+   //
+   // console.log(clone.classList);
+   // console.log(target.classList);
+   // target.classList.add('xxx');
+   // target.classList.remove('xxx');
+   // target.classList.contains('xxx')     //перевіряє чи існує той чи інший клас
+   // target.classList.toggle('ooo')     //якщо такого класну немає він його додає, а якщо є то видаляє
+
+
+
+
+
+   // let jack=document.getElementsByClassName('jack')[0]
+   // console.log(jack);
+   // console.log(jack.nextElementSibling);
+   // console.log(jack.nextSibling);   //повертає вузол, тобто на даний момент пробіл між двома елеиентами
+   // console.log(jack.previousElementSibling);
+
+
+   console.log(document.forms);
+   console.log(document.forms.f2);
+   //два варіант як знайти елементи в середині формс
+   console.log(document.forms.f2[0]);
+   console.log(document.forms.f2.username);
+
+</script>
+
+</body>
+</html>
