@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #xxx{
+        width: 200px;
+        height: 200px;
+        background: aqua;
+    }
+
+</style>
+
+<body>
+
+<!--<h1>lorem ipsum</h1>-->
+<!--<p id="yyy">lorem ipsum dolor sit amet, con</p>-->
+
+<!--<div class="zzz"></div>-->
+
+<div id="xxx"></div>
+
+<script>
+
+    document.onclick=function (e) {
+        console.log(e.target);
+    }
+
+
+    let xxx=document.getElementById('xxx');
+    xxx.onmousedown=function () {
+        xxx.style.position='absolute';
+        document.onmousemove=function (ommEO) {
+            xxx.style.top=ommEO.clientY + 'px';
+            xxx.style.left=ommEO.clientX + 'px';
+        }
+    }
+
+    xxx.onmouseup=function () {
+        document.onmousemove=null
+    }
+</script>
+</body>
+</html>

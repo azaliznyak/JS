@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .target{
+        background: silver;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<body>
+<!--<div class="target"></div>-->
+
+<form action="" name="form1">
+    <input type="text" name="login">
+    <input type="checkbox" name="status">
+    <button>save</button>
+</form>
+
+
+
+
+
+
+
+<!--<button id="btn1">click me</button>-->
+
+
+<script>
+    // let target= document.getElementsByClassName('target')[0]   //повертає нам псевдо масив або html collection
+    // console.log(target);
+    // target.onclick=function () {
+    //     console.log('click')
+    // };
+    //
+    // target.ondblclick=function () {              //подвійне натискання
+    //     console.log('dbl click')
+    // }
+    // target.onmousedown=function () {             //натиснув не відпустив мишку
+    //     console.log('down')
+    // }
+    // target.onmouseup=function () {               //натиснув та відпустив
+    //     console.log('up')
+    // }
+    // target.onmouseover=function () {               //спрацьовує коли наводиш на об єкт
+    //     console.log('over')
+    // }
+    // target.onmouseleave=function () {             //наводиш та залишаєш
+    //     console.log('leave')
+    // }
+
+
+
+    // target.addEventListener('click', function () {
+    //     console.log('click1')
+    // })
+    // target.addEventListener('click', function () {            //якщо ми хочемо використувати на одній події багато значень
+    //     console.log('click2')
+    // })
+    //
+    // target.onmousemove= function (event) {
+    //     // console.log(event.clientX,event.clientY);    //щоб знати де клієнт знаходиться на сайті
+    //     let x= event.clientX;
+    //     let y=event.clientY;
+    //     this.style.background=`rgb(${x},${y},${x-y})`
+    // }
+
+
+    let form1=document.forms.form1;
+        form1.onsubmit=function (e) {
+        e.preventDefault();            //та подія яка має статись дифолтно повинна бути заборонена, на даний момент сторінка не буде оновлятись
+        console.log('submit')
+    };
+
+        form1.login.oninput=function (e) {
+            console.log(e)
+            console.log(this.value)           //щоб считати що ми вводимо у форму
+            this.style.background=this.value;
+        }
+
+        form1.status.onclick=function () {
+            /// console.log('click cb')
+            console.log(this.checked);
+        }
+
+
+
+
+
+
+
+
+
+
+// let btn1=document.getElementById('btn1');
+// btn1.onclick=function () {
+//     console.log('click me')}
+
+
+    document.onkeypress=function (e) {        //те на що ми натискаємо
+        console.log(e.key);
+    }
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
