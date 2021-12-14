@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+// location.reload();
+// window.history.forward()             //по історії вперед , бек назад, віндов не обов язково
+
+//
+// console.log(sessionStorage);
+// sessionStorage.setItem('asd', 'qwe')            //зберігається на етапі тільки першої сесії
+//
+// sessionStorage.setItem('user', JSON.stringify({name:'vasya'}))  //перетворяє на стрінгу
+// console.log(sessionStorage.getItem('user'));
+//
+//
+//
+// let json=JSON.stringify({name:'vasya'})
+// console.log(json);
+// JSON.parse(json)     //щоб перетворити назад на об єкт
+
+
+
+// localStorage.setItem('user', JSON.stringify({username: 'kokos'}));    //інформація зберігається на постійній основі
+//
+// let products=[{name:'milk'},{name:'bread'}]
+// localStorage.setItem('products',JSON.stringify(products) );
+//
+// let productsJson=localStorage.getItem('products');
+// let parse= JSON.parse(productsJson);
+// console.log(parse);
+// parse.push({});
+// localStorage.setItem('products',JSON.stringify(parse) );
+//
+//
+// if (navigator.cookieEnabled===false){
+//     alert()
+// }
+//
+// document.cookie='name=kokos';
+// document.cookie='surname=kokos';
+// document.cookie='token=jlur__75;max-age=23455;path=/'  ;       // 23455 через цей термін часу інформація не буде діяти, / поточне місце розташування
+// console.log(document.cookie);
+// let cookies=document.cookie.split(';');
+// console.log(cookies);
+// let obj={}
+// for (let i = 0; i < cookies.length; i++) {
+//     const cookie = cookies[i].split('=');
+//     obj[cookie[0]]=cookie[1]
+// }
+// console.log(obj);
+//
+// document.cookie='name='    //щоб перевизначити
+
+navigator.geolocation.getCurrentPosition(position => {     //місце знаходження
+    console.log(position.coords.latitude);
+    console.log(position.coords.longitude)
+})
+
+</script>
+
+</body>
+</html>

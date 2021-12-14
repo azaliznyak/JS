@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="upload">
-      <change afterPath="$PROJECT_DIR$/lesson10/classwork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/homework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main1.js" afterDir="false" />
+    <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson11/classwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/favorites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/main1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <workItem from="1637206714626" duration="20178000" />
       <workItem from="1637759938363" duration="59929000" />
       <workItem from="1638920067764" duration="22789000" />
-      <workItem from="1639190225467" duration="16641000" />
+      <workItem from="1639190225467" duration="24825000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1637025549506</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639191531485</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="upload">
+      <created>1639361903879</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639361903879</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
