@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(function (response) {                         ////.then(response => response.json());
+        console.log(response);                              ////.then(users=>{
+                                                             ///console.log(users)
+                                                                   // })
+
+        let jsonBody= response.json();                            //SHORT FORM
+        return jsonBody
+    }).then(users=>{
+        console.log(users)
+        for (let user of users) {
+            let div= document.createElement('div');
+            document.body.appendChild(div);
+            div.innerText=`${user.name} ${user.email}`
+        }
+    })
+
+</script>
+</body>
+</html>
