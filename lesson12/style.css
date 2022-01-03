@@ -1,8 +1,11 @@
 
 
 
-.posts {
-    width: 2000px;
+.posts  {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+.post{
+    width: 20%;
 }
