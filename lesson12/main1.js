@@ -26,6 +26,7 @@ fetch('https://jsonplaceholder.typicode.com/posts').then(response=>response.json
                         for (let comment of value) {
                             let commentDiv=document.createElement('div');
                             commentDiv.innerText=comment.body;
+                            div.classList.add('comments')
                             div.appendChild(commentDiv)
 
                         }
