@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+
+}
+.user-comments{
+    /*flex-direction: column;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    box-shadow: 0 17px 33px, 0 20px 20px rgba(0, 0, 0, 0.22);
+    border: 3px solid black;
+    position: relative;
+    background-color: lightcyan;
+    width: 500px;
+    padding-left: 50px;
+    margin-left: 410px;
+
+}
+.postComments {
+
+    margin: 10px;
+}

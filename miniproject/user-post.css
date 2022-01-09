@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+
+}
+.user-posts{
+    height: 220px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.posts{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    grid-column-gap: 10px;
+
+
+}
+.details{
+    padding: 5px;
+}

@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36987ada-029a-433d-9f98-5df6b632d29f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/miniproject/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/user-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/user-posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/classwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/classwork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/main1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,7 +88,24 @@
       <workItem from="1640891988335" duration="3000" />
       <workItem from="1640892009271" duration="4838000" />
       <workItem from="1640897749988" duration="362000" />
-      <workItem from="1640898143506" duration="2765000" />
+      <workItem from="1640898143506" duration="3440000" />
+      <workItem from="1641668172966" duration="47000" />
+      <workItem from="1641668231626" duration="127000" />
+      <workItem from="1641668464528" duration="30000" />
+      <workItem from="1641668500930" duration="3000" />
+      <workItem from="1641668519371" duration="77000" />
+      <workItem from="1641668615551" duration="3000" />
+      <workItem from="1641668632068" duration="76000" />
+      <workItem from="1641669114997" duration="27000" />
+      <workItem from="1641669202322" duration="30000" />
+      <workItem from="1641669243888" duration="31000" />
+      <workItem from="1641669282476" duration="67000" />
+      <workItem from="1641669490846" duration="8000" />
+      <workItem from="1641669739105" duration="26000" />
+      <workItem from="1641669781308" duration="1646000" />
+      <workItem from="1641672036038" duration="4251000" />
+      <workItem from="1641692760817" duration="211000" />
+      <workItem from="1641693038605" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1637025549506</created>
@@ -201,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641239267744</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="upload">
+      <created>1641655311693</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1641655311693</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
